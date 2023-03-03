@@ -3,7 +3,10 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user to ansswer to create the basic stracture of the readme
+
+// const writeFileAsync = util.promisify(fs.writeFile); 
+
+// array of questions for user to answer to create the basic stracture of the readme
 const questions = [
     inquirer.prompt ([
         {
@@ -23,6 +26,12 @@ const questions = [
         name:"github",
         message: "What is your github name?"
     },
+    
+    {
+        type: "input",
+        name:"email",
+        message: "What is your email address?"
+    },
 
     {
         type: "input",
@@ -40,7 +49,7 @@ const questions = [
     {
         type: "input",
         name:"usage",
-        message: "What is the this applications intended use? To put it simply what is this designed to to?",
+        message: "What is the this applications intended use? To put it simply what is this designed to do xD?",
     },
 
 
@@ -59,15 +68,20 @@ const questions = [
 
     }
 
+    
+
     ]
-
-
 
     )
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    
+
+
+
+
 }
 
 // function to initialize program

@@ -31,4 +31,5 @@ Depends on what the user has selected.
 
 ## Disclaimer
 For several parts of the code my coding instructing Anthony Silva helped me to streamline the code. 
+
 *The important thing is not to stop questioning*

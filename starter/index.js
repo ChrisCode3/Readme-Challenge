@@ -35,7 +35,7 @@ function promptUser() {
 
     {
       type: "input",
-      name: "installation",
+      name: "Installation",
       message: "Any requirements for the installation",
     },
 
@@ -51,6 +51,12 @@ function promptUser() {
        message:
          "What is the this applications intended use? To put it simply what is this designed to do xD?",
      },
+
+     {
+      type: "input",
+      name: "Tests",
+      message: "Are there any tests you need to do before running this application?",
+    },
 
      {
        type: "input",
